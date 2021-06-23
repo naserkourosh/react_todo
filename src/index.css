@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.todo{
+  border: 4px dashed #666;
+  min-width: 68%;
+  height: 90vh;
+  margin: 1rem;
+  border-radius: 6px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.todo form input{
+  outline: none;
+  border-radius: 13px;
+  padding: .4em .8em;
+  margin-right: 1em;
+}
+.todo form button{
+  outline: none;
+  border-radius: 13px;
+  padding: .4em .8em;
+  background-color: #fff;
 }
